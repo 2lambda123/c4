@@ -2,7 +2,7 @@ repo_name: 2lambda123/c4
 report_id: 38c4f336d80c6e31ddfa2819b283a380
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T07:55:38+00:00'
+timestamp: '2024-02-29T19:19:18+00:00'
 requested_by: kenrick95
 provider: github
 branch: master
@@ -127,7 +127,7 @@ tools:
   last_updated_by: Kenrick
   last_updated_on: 2023-04-21 09:20:44.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.8.7
   license: MIT
@@ -261,6 +261,13 @@ tools:
   last_updated_by: Kenrick
   last_updated_on: 2023-04-21 09:28:52.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
